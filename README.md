@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 Contributors :
 
--MatthysDucrocq : Matthys Ducrocq
--Corentyn: Corentyn Masset
--Rayles59: Gauthier Boddaert
--Jan Cornelis: Jcbutnotjesus
+- MatthysDucrocq : Matthys Ducrocq
+- Corentyn: Corentyn Masset
+- Rayles59: Gauthier Boddaert
+- Jan Cornelis: Jcbutnotjesus
