@@ -22,4 +22,4 @@ Contributors :
 - Rayles59: Gauthier Boddaert
 - Jan Cornelis: Jcbutnotjesus
 
-test
+L'api utilisée : https://brawlstats.readthedocs.io/en/latest/api.html
