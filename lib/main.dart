@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:projetflutter/routes/home/ex1_route.dart';
-import 'package:projetflutter/routes/home/home_route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
     title: 'Flutter IUT',
     home: Ex1Route(),
-    square: SquareRoute(),
+    
     );
   }
 }
