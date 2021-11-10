@@ -20,6 +20,5 @@ Contributors :
 - MatthysDucrocq : Matthys Ducrocq
 - Corentyn: Corentyn Masset
 - Rayles59: Gauthier Boddaert
-- Jan Cornelis: Jcbutnotjesus
 
-L'api utilisée : https://brawlstats.readthedocs.io/en/latest/api.html
+API utilisée : https://brawlstats.readthedocs.io/en/latest/api.html
