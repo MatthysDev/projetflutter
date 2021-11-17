@@ -3,6 +3,7 @@ Contributors 💫
 - MatthysDucrocq : Matthys Ducrocq
 - Corentyn: Corentyn Masset
 - Rayles59: Gauthier Boddaert
+- Jcbutnotjesus : Jan Cornelis
 
 API utilisée : https://brawlstats.readthedocs.io/en/latest/api.html
 
