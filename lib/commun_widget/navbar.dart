@@ -8,7 +8,9 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: const Text("BrawlStats"),
+      title: Row(
+        children: [const Text('dza'), Image.asset('assets/logo.png')],
+      ),
     );
   }
 
