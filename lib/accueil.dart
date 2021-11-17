@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:projetflutter/commun_widget/navbar.dart';
 import 'package:projetflutter/commun_widget/navbotbar.dart';
+import 'package:projetflutter/routes/accueil/tabs/battleLog.dart';
+import 'package:projetflutter/routes/accueil/tabs/listBrawlers.dart';
+import 'package:projetflutter/routes/accueil/tabs/player.dart';
 
 class Accueil extends StatefulWidget {
   const Accueil({Key? key}) : super(key: key);
@@ -11,21 +14,30 @@ class Accueil extends StatefulWidget {
 }
 
 class _AccueilState extends State<Accueil> {
+
+int selectedTab = 1;
+
+List<Widget> bodies = [
+  BattleLog(),
+  ListBrawlers(),
+  Player(),
+];
+
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(
+    return  SafeArea(
       child: Scaffold(
-          appBar: const Navbar(),
-          body: Center(child: Text('Accueil'),),
-       bottomNavigationBar: const MyStatefulWidget(),),
+          appBar:  Navbar(),
+          body: bodies[selectedTab],
+       bottomNavigationBar:  AppBottomNavigationBar(selected: selectedTab, onTap: _onPressed),),
     );
   }
 
-  // void _onPressed() {
-  //   setState(() {
-  //     nbSquare++;
-  //   });
-
+  void _onPressed(int index) {
+     setState(() {
+       selectedTab = index;
+     });
+  }
 }
 
   // List<Widget> _buildSquares(){
