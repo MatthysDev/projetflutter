@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:projetflutter/commun_widget/navbar.dart';
+import 'package:projetflutter/commun_widget/navbotbar.dart';
 
 class Accueil extends StatefulWidget {
   const Accueil({Key? key}) : super(key: key);
@@ -11,10 +13,12 @@ class Accueil extends StatefulWidget {
 class _AccueilState extends State<Accueil> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-      title: const Text('BrawlStats'),
-    ));
+    return const SafeArea(
+      child: Scaffold(
+          appBar: const Navbar(),
+          body: Center(child: Text('Accueil'),),
+       bottomNavigationBar: const MyStatefulWidget(),),
+    );
   }
 
   // void _onPressed() {
