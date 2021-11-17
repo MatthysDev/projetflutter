@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projetflutter/routes/home/ex1_route.dart';
+import 'package:projetflutter/accueil.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,12 +8,14 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  @override 
-  Widget build(BuildContext context){
+  @override
+  Widget build(BuildContext context) {
     return const MaterialApp(
-    title: 'Flutter IUT',
-    home: Ex1Route(),
-    
+      title: 'BrawlStats',
+      home: Accueil(),
+
     );
   }
 }
+// This is the stateful widget that the main application instantiates.
+
