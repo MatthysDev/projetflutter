@@ -1,7 +1,6 @@
 import 'package:flutter/widgets.dart';
 
 class MySquare extends StatelessWidget {
-
   const MySquare({Key? key, required this.color}) : super(key: key);
   final Color color;
 
