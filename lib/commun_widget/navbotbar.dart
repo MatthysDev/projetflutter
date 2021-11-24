@@ -12,8 +12,8 @@ class AppBottomNavigationBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BottomNavigationBar( backgroundColor: const Color.fromRGBO(61, 75, 203, 1), selectedItemColor: const Color.fromRGBO(255, 255, 255, 1),
-  unselectedItemColor: const Color.fromRGBO(243, 200, 89, 1), onTap: onTap, currentIndex: selected, items: [
+    return BottomNavigationBar( backgroundColor: const Color.fromRGBO(243, 200, 89, 1), selectedItemColor: const Color.fromRGBO(255, 255, 255, 1),
+  unselectedItemColor: const Color.fromRGBO(0, 0, 0, 1), onTap: onTap, currentIndex: selected, items: [
       BottomNavigationBarItem(
           icon: new Icon(Icons.list), title: new Text("BattleLog")),
       BottomNavigationBarItem(
