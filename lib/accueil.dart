@@ -28,6 +28,7 @@ List<Widget> bodies = [
     return  SafeArea(
       child: Scaffold(
           appBar:  Navbar(),
+          backgroundColor: Color.fromRGBO(61, 75, 203, 1),
           body: bodies[selectedTab],
        bottomNavigationBar:  AppBottomNavigationBar(selected: selectedTab, onTap: _onPressed),),
     );
