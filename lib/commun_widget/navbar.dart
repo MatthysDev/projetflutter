@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 
 class Navbar extends StatelessWidget implements PreferredSizeWidget {
   const Navbar({Key? key}) : super(key: key);
@@ -8,12 +7,30 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Row(
-        children: [const Text('dza'), Image.asset('assets/logo.png')],
+      toolbarHeight: 128,
+      title: Column(
+        children: [
+          Row(
+            children: [
+              Image.asset(
+                'assets/logo.png',
+                width: 250,
+                height: 250,
+              ),
+              const Text('BrawlStats'),
+            ],
+          ),
+          Container(
+            color: Colors.yellow,
+            height: 10,
+            width: 128,
+          )
+        ],
       ),
+      centerTitle: true,
     );
   }
 
   @override
-  Size get preferredSize => const Size.fromHeight(64);
+  Size get preferredSize => const Size.fromHeight(128);
 }
