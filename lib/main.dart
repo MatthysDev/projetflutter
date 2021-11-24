@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:projetflutter/accueil.dart';
-=======
-import 'package:projetflutter/routes/accueil/accueil.dart';
->>>>>>> b7cb5a92cf4e2ae891cd59ee3e2d7db46a3c030e
 
 void main() {
   runApp(const MyApp());

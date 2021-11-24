@@ -28,10 +28,7 @@ List<Widget> bodies = [
     return  SafeArea(
       child: Scaffold(
           appBar:  Navbar(),
-<<<<<<< HEAD:lib/accueil.dart
           backgroundColor: Color.fromRGBO(61, 75, 203, 1),
-=======
->>>>>>> b7cb5a92cf4e2ae891cd59ee3e2d7db46a3c030e:lib/routes/accueil/accueil.dart
           body: bodies[selectedTab],
        bottomNavigationBar:  AppBottomNavigationBar(selected: selectedTab, onTap: _onPressed),),
     );
