@@ -9,7 +9,7 @@ class Brawlers {
   int? power;
   int? highestTrophies;
 
-  Brawlers({required this.name});
+  Brawlers({required this.name, required this.rank, required this.power, required this.highestTrophies});
 
   factory Brawlers.fromJson(Map<String, dynamic> json) => _$BrawlersFromJson(json);
 

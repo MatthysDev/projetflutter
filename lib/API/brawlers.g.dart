@@ -8,10 +8,10 @@ part of 'brawlers.dart';
 
 Brawlers _$BrawlersFromJson(Map<String, dynamic> json) => Brawlers(
       name: json['name'] as String?,
-    )
-      ..rank = json['rank'] as int?
-      ..power = json['power'] as int?
-      ..highestTrophies = json['highestTrophies'] as int?;
+      rank: json['rank'] as int?,
+      power: json['power'] as int?,
+      highestTrophies: json['highestTrophies'] as int?,
+    );
 
 Map<String, dynamic> _$BrawlersToJson(Brawlers instance) => <String, dynamic>{
       'name': instance.name,
