@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:projetflutter/accueil.dart';
 import 'package:projetflutter/routes/home.dart';
 
@@ -12,10 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Home(),
+      home: ProviderScope(
+        child: Accueil()),
+
       title: 'BrawlStats',
+    
     );
   }
 }
 // This is the stateful widget that the main application instantiates.
-
