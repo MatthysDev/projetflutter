@@ -85,11 +85,14 @@ flutter:
   #         weight: 700
   #   - family: Lilita
   #     fonts:
-  #       - asset : assets/LilitaOne-Regular.ttf
+  #       - asset : assets/fonts/LilitaOne-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   fonts:
   - family : BrawlIcons
     fonts :
-      - asset: assets/fonts/Sword.ttf
+      - asset: assets/fonts/BrawlIcons.ttf
+  - family: Lilita
+    fonts:
+      - asset : assets/fonts/LilitaOne-Regular.ttf
