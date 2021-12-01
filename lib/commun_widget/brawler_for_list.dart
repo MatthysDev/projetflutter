@@ -7,11 +7,27 @@ class BrawlerForList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final data = MediaQuery.of(context);
-    return SizedBox(
-       width: data.size.width/2,
-        height: data.size.height/5,
-      child: new Image.asset('assets/images/squeak.png'),
+    return Padding(
+      padding: const EdgeInsets.only(
+      left: 15,
+      top: 10,
+      right: 20,
+      bottom: 15,
+    ),
+    
+    child : SizedBox(
+      
+       width: data.size.width/2.5,
+      
+        
+      child: Column( 
+        children:[ new Image.asset('assets/images/squeak.png'), Text('Squeak',style: TextStyle(fontFamily: 'Lilita',fontSize:20)),
+    Text('200 🏆',style: TextStyle(fontFamily: 'Lilita')),
+]
      
+      )
+     
+    )
     );
   }
 }
