@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:projetflutter/commun_widget/navbar.dart';
 import 'package:projetflutter/commun_widget/navbotbar.dart';
-import 'package:projetflutter/routes/accueil/tabs/battlelog.dart';
-import 'package:projetflutter/routes/accueil/tabs/listBrawlers.dart';
+
+import 'package:projetflutter/routes/accueil/tabs/battleLog.dart';
+import 'package:projetflutter/routes/accueil/tabs/list_brawlers.dart';
+
 import 'package:projetflutter/routes/accueil/tabs/player.dart';
 
 class Accueil extends StatefulWidget {
