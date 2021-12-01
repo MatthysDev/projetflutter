@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:projetflutter/accueil.dart';
 
 void main() {
@@ -11,8 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Accueil(),
+      home: ProviderScope(
+        child: Accueil()),
       title: 'BrawlStats',
+    
     );
   }
 }
