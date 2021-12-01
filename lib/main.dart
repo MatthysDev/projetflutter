@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:projetflutter/accueil.dart';
+import 'package:projetflutter/routes/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: ProviderScope(
         child: Accueil()),
+
       title: 'BrawlStats',
     
     );
