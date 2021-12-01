@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class Player extends StatelessWidget {
-  const Player({Key? key}) : super(key: key);
+class Brawlers extends StatelessWidget {
+  const Brawlers({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -10,11 +10,8 @@ class Player extends StatelessWidget {
       child: Row(
         children:const [
           Text('data'),
-          Icon(Icons.star),
-          
         ]
       ),
     );
-
   }
 }
