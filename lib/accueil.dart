@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:projetflutter/commun_widget/navbar.dart';
 import 'package:projetflutter/commun_widget/navbotbar.dart';
-import 'package:projetflutter/routes/accueil/tabs/battleLog.dart';
+import 'package:projetflutter/routes/accueil/tabs/battlelog.dart';
 import 'package:projetflutter/routes/accueil/tabs/listBrawlers.dart';
 import 'package:projetflutter/routes/accueil/tabs/player.dart';
 
@@ -14,30 +14,31 @@ class Accueil extends StatefulWidget {
 }
 
 class _AccueilState extends State<Accueil> {
+  int selectedTab = 1;
 
-int selectedTab = 1;
-
-List<Widget> bodies = [
-  BattleLog(),
-  ListBrawlers(),
-  Player(),
-];
+  List<Widget> bodies = [
+    BattleLog(),
+    ListBrawlers(),
+    Player(),
+  ];
 
   @override
   Widget build(BuildContext context) {
-    return  SafeArea(
+    return SafeArea(
       child: Scaffold(
-          appBar:  Navbar(),
-          backgroundColor: Color.fromRGBO(61, 75, 203, 1),
-          body: bodies[selectedTab],
-       bottomNavigationBar:  AppBottomNavigationBar(selected: selectedTab, onTap: _onPressed),),
+        appBar: Navbar(),
+        backgroundColor: Color.fromRGBO(61, 75, 203, 1),
+        body: bodies[selectedTab],
+        bottomNavigationBar:
+            AppBottomNavigationBar(selected: selectedTab, onTap: _onPressed),
+      ),
     );
   }
 
   void _onPressed(int index) {
-     setState(() {
-       selectedTab = index;
-     });
+    setState(() {
+      selectedTab = index;
+    });
   }
 }
 

@@ -20,11 +20,11 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
               const Text('BrawlStats'),
             ],
           ),
-          Container(
-            color: Colors.yellow,
-            height: 10,
-            width: 128,
-          )
+          // Container(
+          //   color: Colors.yellow,
+          //   height: 10,
+          //   width: 128,
+          // )
         ],
       ),
       centerTitle: true,
