@@ -19,6 +19,7 @@ class Navbar extends ConsumerWidget implements PreferredSizeWidget {
     return AppBar(
       toolbarHeight: 128,
       title: Column(
+        children: [
           Row(
             children: [
               Image.asset(
