@@ -4,18 +4,12 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:projetflutter/providers/dio.dart';
 
-class Navbar extends ConsumerWidget implements PreferredSizeWidget {
+class Navbar extends StatelessWidget implements PreferredSizeWidget {
   const Navbar({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final Dio dio = ref.read(dioProvider);
-    final Future<Response> player = dio.get("players/%2320C2GLVCG");
-    player.then((Response value){
-      print(value.statusCode);
-    }).catchError((onError){
-      print(onError.toString());
-    });
+  Widget build(BuildContext context) {
+   
     return AppBar(
       
       toolbarHeight: 128,
