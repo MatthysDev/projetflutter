@@ -8,10 +8,15 @@ class Navbar extends StatelessWidget implements PreferredSizeWidget {
   const Navbar({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-   
+  Widget build(BuildContext context, WidgetRef ref) {
+    final Dio dio = ref.read(dioProvider);
+    final Future<Response> player = dio.get("players/%2320C2GLVCG");
+    player.then((Response value) {
+      print(value.statusCode);
+    }).catchError((onError) {
+      print(onError.toString());
+    });
     return AppBar(
-      
       toolbarHeight: 128,
       title: Column(
         children: [
