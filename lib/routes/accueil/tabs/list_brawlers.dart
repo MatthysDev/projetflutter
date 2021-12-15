@@ -29,6 +29,6 @@ class ListBrawlers extends ConsumerWidget {
         elements.add(BrawlerList(brawler: b));
       }
     }
-    return Wrap(children: elements);
+    return SingleChildScrollView(child: Wrap(children: elements));
   }
 }
