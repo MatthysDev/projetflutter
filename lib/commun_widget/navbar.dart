@@ -17,7 +17,7 @@ class Navbar extends ConsumerWidget implements PreferredSizeWidget {
       print(onError.toString());
     });
     return AppBar(
-      toolbarHeight: 128,
+      toolbarHeight: 64,
       title: Column(
         children: [
           Row(
@@ -42,5 +42,5 @@ class Navbar extends ConsumerWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => const Size.fromHeight(128);
+  Size get preferredSize => const Size.fromHeight(64);
 }

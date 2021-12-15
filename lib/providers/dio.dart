@@ -4,14 +4,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final Dio dio = Dio(BaseOptions(
   baseUrl: "https://api.brawlstars.com/v1/",
-  connectTimeout: 10000,
-  receiveTimeout: 5000,
+  connectTimeout: 100000,
+  receiveTimeout: 500000,
   
 ));
 
 final dioProvider = Provider<Dio>((ref){
   dio.interceptors.clear();
-  const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImIyYTk4OWY0LTcyMTctNDc5NC1iZGRiLThlYzJjZWZkZDVlMCIsImlhdCI6MTYzOTU3MjczOCwic3ViIjoiZGV2ZWxvcGVyLzM3NGZkYzY1LTcyYWEtZjg3Yi1jM2YyLWJjZTEzNzdkY2JiNSIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiNzcuMTMwLjE1My4xOTYiLCIxNzYuMTc5LjEzNi4yOSJdLCJ0eXBlIjoiY2xpZW50In1dfQ.r-7FOv2nYZtNwdq841Iratg2Tztvm_30WDBIRYMZPPMmdIuIXcp7H0AnPqQ7ytikYd0BU454U0EU5eVsJN4v5g";
+  const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjFiNmZkZTMzLThjZTYtNGI5Mi05M2JjLWMyYWE0MWY0NzZhYiIsImlhdCI6MTYzOTU4MDcwMCwic3ViIjoiZGV2ZWxvcGVyLzM3NGZkYzY1LTcyYWEtZjg3Yi1jM2YyLWJjZTEzNzdkY2JiNSIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMTc2LjE3OS4xNTguMTg4IiwiNzcuMTMwLjEyNC4yMTEiXSwidHlwZSI6ImNsaWVudCJ9XX0.-xNS5pb1cPJ2rNdeforIQCfjH_9XxjEv-On3ZmcewWnDAhHt6UvGRMIKuSXIFclDY-h3RtKGG5pDU86U48NGVg";
   dio.interceptors.add(InterceptorsWrapper(
     onRequest:(options, handler){
      // Do something before request is sent

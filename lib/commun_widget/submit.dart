@@ -23,7 +23,7 @@ class _SubmitState extends State<Submit> {
         children: <Widget>[
           TextFormField(
             controller: myController,
-            maxLength: 11,
+          
             decoration: const InputDecoration(
               hintText: 'Entrez votre ID',
             ),

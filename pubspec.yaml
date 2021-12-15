@@ -33,8 +33,6 @@ dependencies:
   json_annotation: ^4.3.0
   json_serializable: ^6.0.1
 
-
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
@@ -66,7 +64,60 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/logo.png
-    - assets/images/squeak.png
+    - assets/images/AMBRE.png
+    - assets/images/8-BIT.png
+    - assets/images/ASH.png
+    - assets/images/BARLEY.png
+    - assets/images/BEA.png
+    - assets/images/BELLE.png
+    - assets/images/BIBI.png
+    - assets/images/BO.png
+    - assets/images/BROCK.png
+    - assets/images/BULL.png
+    - assets/images/BUZZ.png
+    - assets/images/BYRON.png
+    - assets/images/CARL.png
+    - assets/images/COLETTE.png
+    - assets/images/COLONEL RUFF.png
+    - assets/images/COLT.png
+    - assets/images/CORBAC.png
+    - assets/images/GENE.png
+    - assets/images/DARRYL.png
+    - assets/images/DYNAMIKE.png
+    - assets/images/EDGAR.png
+    - assets/images/EL PRIMO.png
+    - assets/images/EMZ.png
+    - assets/images/EMERI.png
+    - assets/images/FRANCK.png
+    - assets/images/GALE.png
+    - assets/images/GRIFF.png
+    - assets/images/JACKY.png
+    - assets/images/JESSIE.png
+    - assets/images/LEON.png
+    - assets/images/LOLA.png
+    - assets/images/LOU.png
+    - assets/images/MAX.png
+    - assets/images/MEG.png
+    - assets/images/MR. P.png
+    - assets/images/MORTIS.png
+    - assets/images/NANI.png
+    - assets/images/NITA.png
+    - assets/images/PAM.png
+    - assets/images/PENNY.png
+    - assets/images/POCO.png
+    - assets/images/PIPER.png
+    - assets/images/RICOCHET.png
+    - assets/images/ROSA.png
+    - assets/images/ROSA.png
+    - assets/images/SPIKE.png
+    - assets/images/SQUEAK.png
+    - assets/images/STU.png
+    - assets/images/SURGE.png
+    - assets/images/TARA.png
+    - assets/images/TICK.png
+    - assets/images/WALLY.png
+    - assets/images/SHELLY.png
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -99,10 +150,9 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
   fonts:
-  - family : BrawlIcons
-    fonts :
-      - asset: assets/fonts/BrawlIcons.ttf
-  - family: Lilita
-    fonts:
-      - asset : assets/fonts/LilitaOne-Regular.ttf
-
+    - family: BrawlIcons
+      fonts:
+        - asset: assets/fonts/BrawlIcons.ttf
+    - family: Lilita
+      fonts:
+        - asset: assets/fonts/LilitaOne-Regular.ttf
