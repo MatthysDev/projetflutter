@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:projetflutter/providers/dio.dart';
 
-class Navbar extends StatelessWidget implements PreferredSizeWidget {
+class Navbar extends ConsumerWidget implements PreferredSizeWidget {
   const Navbar({Key? key}) : super(key: key);
 
   @override
