@@ -24,8 +24,8 @@ class Navbar extends ConsumerWidget implements PreferredSizeWidget {
             children: [
               Image.asset(
                 'assets/logo.png',
-                width: 250,
-                height: 250,
+                width: 150,
+                height: 150,
               ),
               const Text('BrawlStats'),
             ],
