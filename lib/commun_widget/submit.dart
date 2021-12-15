@@ -21,12 +21,13 @@ class _SubmitState extends State<Submit> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           TextFormField(
+            maxLength: 11,
             decoration: const InputDecoration(
-              hintText: '#EGDT4E',
+              hintText: 'Entrez votre ID',
             ),
             validator: (String? value) {
               if (value == null || value.isEmpty) {
-                return 'Please enter some text';
+                return 'ID incorrect';
               }
               return null;
             },
