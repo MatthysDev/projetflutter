@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:projetflutter/API/brawlers.dart';
+
 import 'brawler_for_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -13,7 +15,7 @@ import 'package:projetflutter/providers/profile.provider.dart';
 class BrawlerList extends ConsumerWidget {
   BrawlerList({ Key? key, required this.brawler }) : super(key: key);
 
-  final brawler;
+  final Brawlers brawler;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
