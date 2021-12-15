@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:projetflutter/icons.dart';
+import 'package:projetflutter/routes/accueil/tabs/local_widgets/stat.dart';
 
 
 class Player extends StatelessWidget {
@@ -9,18 +10,10 @@ class Player extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    return Container(
-      child: Row(
-        children:const [
-          Text('data', style: TextStyle(fontFamily: 'Lilita')),
-          Icon(BrawlIcons.broadsword, size:64),
-          Icon(BrawlIcons.star, size:64),
-          Icon(BrawlIcons.crownedHeart, size:64),
-          Icon(BrawlIcons.toolbox, size:64),
-          
-        ]
-      ),
+    return Wrap(
+      children: [StatDart(side: 'left',),StatDart(side :'right'),StatDart(side: 'left'),StatDart(side: 'right')],
     );
-
+  
   }
+  
 }
