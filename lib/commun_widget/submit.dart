@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:projetflutter/providers/app.state.provider.dart';
 import 'package:projetflutter/routes/accueil/accueil.dart';
 
 class Submit extends StatefulWidget {
@@ -9,18 +11,18 @@ class Submit extends StatefulWidget {
   State<Submit> createState() => _SubmitState();
 }
 
-/// This is the private State class that goes with Submit.
 class _SubmitState extends State<Submit> {
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-
   @override
   Widget build(BuildContext context) {
+
+    final myController = TextEditingController();
+
     return Form(
-      key: _formKey,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           TextFormField(
+            controller: myController,
             maxLength: 11,
             decoration: const InputDecoration(
               hintText: 'Entrez votre ID',
@@ -34,13 +36,18 @@ class _SubmitState extends State<Submit> {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 16.0),
-            child: ElevatedButton(
-              onPressed: () {
-                // Validate will return true if the form is valid, or false if
-                // the form is invalid.
-                if (_formKey.currentState!.validate()) {}
+            child: Consumer(
+              builder: (context, ref, widget){
+                return ElevatedButton(
+                onPressed: () {
+                  // Validate will return true if the form is valid, or false if
+                  // the form is invalid.
+                  ref.read(appStateProvider.notifier).setPlayerId(myController.text);
+                },
+                child: const Text('Submit'),
+              );
               },
-              child: const Text('Submit'),
+              
             ),
           ),
         ],

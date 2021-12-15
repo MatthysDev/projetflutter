@@ -29,14 +29,14 @@ class BrawlerList extends ConsumerWidget {
         child: SizedBox(
             width: taille.size.width / 2.5,
             child: Column(children: [
-              new Image.asset('assets/images/squeak.png'),
+              new Image.asset('assets/images/${brawler.name}.png'),
               Text(brawler.name!,
                   style: TextStyle(fontFamily: 'Lilita', fontSize: 20)),
               Text(null == brawler.trophies ? "0" : brawler.trophies!.toString(),
                   style: TextStyle(fontFamily: 'Lilita', fontSize: 20)),
-              Text(brawler.rank!.toString(),
+              Text("rank " + brawler.rank!.toString(),
                   style: TextStyle(fontFamily: 'Lilita')),
-              Text(brawler.power!.toString(),
+              Text("power " + brawler.power!.toString(),
                   style: TextStyle(fontFamily: 'Lilita', fontSize: 10)),
             ])));
   }
