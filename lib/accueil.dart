@@ -19,17 +19,17 @@ class _AccueilState extends State<Accueil> {
   int selectedTab = 1;
 
   List<Widget> bodies = [
-    BattleLog(),
-    ListBrawlers(),
-    Player(),
+    const BattleLog(),
+    const ListBrawlers(),
+    const Player(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: Navbar(),
-        backgroundColor: Color.fromRGBO(61, 75, 203, 1),
+        appBar: const Navbar(),
+        backgroundColor: const Color.fromRGBO(61, 75, 203, 1),
         body: bodies[selectedTab],
         bottomNavigationBar:
             AppBottomNavigationBar(selected: selectedTab, onTap: _onPressed),

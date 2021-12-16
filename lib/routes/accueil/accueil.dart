@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:projetflutter/commun_widget/brawlers.dart';
 import 'package:projetflutter/commun_widget/navbar.dart';
 import 'package:projetflutter/commun_widget/navbotbar.dart';
 import 'package:projetflutter/routes/accueil/tabs/battle_log.dart';

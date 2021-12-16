@@ -11,8 +11,8 @@ class StatDart extends StatelessWidget {
     return SizedBox(
       width: MediaQuery.of(context).size.width / 2,
       child: Row(children: [
-        side == 'left' ? Icon(BrawlIcons.toolbox, size:64) : Text('Test2'),
-        side == 'left' ? Text('Test2') : Icon(BrawlIcons.toolbox, size:64),],));
+        side == 'left' ? const Icon(BrawlIcons.toolbox, size:64) : const Text('Test2'),
+        side == 'left' ? const Text('Test2') : const Icon(BrawlIcons.toolbox, size:64),],));
         
   }
 }

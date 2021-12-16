@@ -5,6 +5,6 @@ class PersonnesTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Personnages');
+    return const Text('Personnages');
   }
 }

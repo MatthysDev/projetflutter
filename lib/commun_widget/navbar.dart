@@ -12,9 +12,8 @@ class Navbar extends ConsumerWidget implements PreferredSizeWidget {
     final Dio dio = ref.read(dioProvider);
     final Future<Response> player = dio.get("players/%2320C2GLVCG");
     player.then((Response value) {
-      print(value.statusCode);
     }).catchError((onError) {
-      print(onError.toString());
+      
     });
     return AppBar(
       toolbarHeight: 64,
