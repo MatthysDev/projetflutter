@@ -64,7 +64,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/logo.png
-    - assets/images/AMBRE.png
+    - assets/images/AMBER.png
     - assets/images/8-BIT.png
     - assets/images/ASH.png
     - assets/images/BARLEY.png
@@ -78,17 +78,17 @@ flutter:
     - assets/images/BYRON.png
     - assets/images/CARL.png
     - assets/images/COLETTE.png
-    - assets/images/COLONEL RUFF.png
+    - assets/images/COLONEL RUFFS.png
     - assets/images/COLT.png
-    - assets/images/CORBAC.png
+    - assets/images/CROW.png
     - assets/images/GENE.png
     - assets/images/DARRYL.png
     - assets/images/DYNAMIKE.png
     - assets/images/EDGAR.png
     - assets/images/EL PRIMO.png
     - assets/images/EMZ.png
-    - assets/images/EMERI.png
-    - assets/images/FRANCK.png
+    - assets/images/SANDY.png
+    - assets/images/FRANK.png
     - assets/images/GALE.png
     - assets/images/GRIFF.png
     - assets/images/JACKY.png
@@ -106,7 +106,7 @@ flutter:
     - assets/images/PENNY.png
     - assets/images/POCO.png
     - assets/images/PIPER.png
-    - assets/images/RICOCHET.png
+    - assets/images/RICO.png
     - assets/images/ROSA.png
     - assets/images/ROSA.png
     - assets/images/SPIKE.png
@@ -115,7 +115,7 @@ flutter:
     - assets/images/SURGE.png
     - assets/images/TARA.png
     - assets/images/TICK.png
-    - assets/images/WALLY.png
+    - assets/images/SPROUT.png
     - assets/images/SHELLY.png
 
   #   - images/a_dot_ham.jpeg
