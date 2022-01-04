@@ -41,27 +41,3 @@ class _AccueilState extends State<Accueil> {
     });
   }
 }
-
-  // List<Widget> _buildSquares(){
-  //   final List<Widget> results = [];
-
-  //   for(int i = 0; i<nbSquare.abs();i++){
-  //     results.add(const Padding(
-  //       padding: EdgeInsets.only(bottom: 8.0),
-  //       child: MySquare(color: Colors.black),
-  //       )
-
-  //     );
-  //   }
-  //   return results;
-  // }
-
-  // body: Center(
-        //   child: SingleChildScrollView(
-        //   child: Column(
-        //     children: _buildSquares(),
-        //   ),),
-        //   ),
-        //   floatingActionButton: FloatingActionButton(
-        //     child: Icon(Icons.perm_camera_mic, color: Colors.black26),onPressed: _onPressed
-        //     )
