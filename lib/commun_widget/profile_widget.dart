@@ -25,12 +25,15 @@ class ProfilWidget extends ConsumerWidget {
             child: Column(children: [
               Text(profile.name,
                   style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
-              Text(
-                  null == profile.trophies ? "0" : profile.trophies!.toString(),
+              Text("Trophée :" + profile.trophies!.toString(),
                   style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
-              Text("rank " + profile.soloVictories!.toString(),
+              Text("Trophée max :" + profile.highestTrophies!.toString(),
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
+              Text("Niveau d'exp :" + profile.expLevel!.toString(),
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
+              Text("victoires en solo " + profile.soloVictories!.toString(),
                   style: const TextStyle(fontFamily: 'Lilita')),
-              Text("power " + profile.duoVictories!.toString(),
+              Text("victoire duo " + profile.duoVictories!.toString(),
                   style: const TextStyle(fontFamily: 'Lilita', fontSize: 10)),
             ])));
   }
