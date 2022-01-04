@@ -7,7 +7,7 @@ part of 'profile.dart';
 // **************************************************************************
 
 Profile _$ProfileFromJson(Map<String, dynamic> json) => Profile(
-      name: json['name'] as String?,
+      name: json['name'] as String,
       tag: json['tag'] as String?,
       trophies: json['trophies'] as int?,
       highestTrophies: json['highestTrophies'] as int?,

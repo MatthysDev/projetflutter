@@ -22,5 +22,11 @@ class DetailsProfile extends ConsumerWidget {
 }
 
  Widget _onData(AsyncData<Profile?> data) {
- return 
+   if(data.value!.name != null){
+    return Text(data.value!.name,
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 20));
+ }
+ else{
+   return const Text('error');
+ }
  }

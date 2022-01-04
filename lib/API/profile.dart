@@ -10,7 +10,7 @@ part 'profile.g.dart';
 @JsonSerializable()
 class Profile {
   String? tag;
-  String? name;
+  String name;
   int? trophies;
   int? highestTrophies;
   int? expLevel;
