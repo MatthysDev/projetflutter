@@ -13,10 +13,10 @@ class ListBrawlers extends ConsumerWidget {
     return ref.watch(testProfileProvider).map(
         data: _onData,
         error: (error) {
-          return const Text("erreur de chargement");
+          return const Text("Error :(");
         },
         loading: (loading) {
-          return const Text("loading");
+          return const Text("Loading...");
         });
   }
 
