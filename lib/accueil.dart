@@ -16,7 +16,7 @@ class Accueil extends StatefulWidget {
 }
 
 class _AccueilState extends State<Accueil> {
-  int selectedTab = 1;
+  int selectedTab = 2;
 
   List<Widget> bodies = [
     const DetailsProfile(),
