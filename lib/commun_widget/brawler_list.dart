@@ -23,7 +23,6 @@ class BrawlerList extends ConsumerWidget {
         ),
         child: SizedBox(
             width: taille.size.width / 2.5,
-            : Colors.white,
             child: Column(children: [
               Image.asset('assets/images/${brawler.name}.png'),
               Text(brawler.name!,
