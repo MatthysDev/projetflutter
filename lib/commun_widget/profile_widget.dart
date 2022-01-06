@@ -19,21 +19,45 @@ class ProfilWidget extends ConsumerWidget {
           right: 20,
           bottom: 15,
         ),
+        child: Container(
+          margin: const EdgeInsets.symmetric(vertical: 30),
         child: SizedBox(
-            width: taille.size.width / 2.5,
+    
+            width: taille.size.width,
             child: Column(children: [
-              Text(profile.name,
-                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
-              Text("Trophée :" + profile.trophies!.toString(),
-                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
-              Text("Trophée max :" + profile.highestTrophies!.toString(),
-                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
-              Text("Niveau d'exp :" + profile.expLevel!.toString(),
-                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 20)),
-              Text("victoires en solo " + profile.soloVictories!.toString(),
-                  style: const TextStyle(fontFamily: 'Lilita')),
-              Text("victoire duo " + profile.duoVictories!.toString(),
-                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 10)),
-            ])));
+              Padding(
+      padding: const EdgeInsets.only(top: 10.0,bottom: 10),
+      child: Text(profile.name,
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 30)),
+    ),
+    Image.asset('assets/images/COLT.png'),
+              Padding(
+      padding: const EdgeInsets.only(top: 10.0,bottom: 10),
+      child: Text("Trophée : " + profile.trophies!.toString(),
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 30)),
+    ),
+              Padding(
+      padding: const EdgeInsets.only(top: 10.0,bottom: 10),
+      child: Text("Niveau : " + profile.expLevel!.toString(),
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 30)),
+    ),
+              Padding(
+      padding: const EdgeInsets.only(top: 10.0,bottom: 10),
+      child: Text("Victoires solo : " + profile.soloVictories!.toString(),
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 30)),
+    ),
+              Padding(
+      padding: const EdgeInsets.only(top: 10.0,bottom: 10),
+      child: Text("Victoires duo : " + profile.duoVictories!.toString(),
+                  style: const TextStyle(fontFamily: 'Lilita', fontSize: 30)),
+    ),
+              
+                  
+              
+        
+              
+              
+              
+            ]))));
   }
 }
