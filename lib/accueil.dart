@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'package:projetflutter/commun_widget/navbar.dart';
 import 'package:projetflutter/commun_widget/navbotbar.dart';
 
-import 'package:projetflutter/routes/accueil/tabs/battle_log.dart';
+import 'package:projetflutter/routes/accueil/tabs/details_profile.dart';
 import 'package:projetflutter/routes/accueil/tabs/list_brawlers.dart';
 
 import 'package:projetflutter/routes/accueil/tabs/player.dart';
@@ -16,20 +16,20 @@ class Accueil extends StatefulWidget {
 }
 
 class _AccueilState extends State<Accueil> {
-  int selectedTab = 1;
+  int selectedTab = 2;
 
   List<Widget> bodies = [
-    BattleLog(),
-    ListBrawlers(),
-    Player(),
+    const DetailsProfile(),
+    const ListBrawlers(),
+    const Player(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: Navbar(),
-        backgroundColor: Color.fromRGBO(61, 75, 203, 1),
+        appBar: const Navbar(),
+        backgroundColor: const Color.fromRGBO(61, 75, 203, 1),
         body: bodies[selectedTab],
         bottomNavigationBar:
             AppBottomNavigationBar(selected: selectedTab, onTap: _onPressed),

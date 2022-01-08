@@ -17,13 +17,13 @@ class AppBottomNavigationBar extends StatelessWidget {
         unselectedItemColor: const Color.fromRGBO(0, 0, 0, 1),
         onTap: onTap,
         currentIndex: selected,
-        items: [
+        items: const [
           BottomNavigationBarItem(
-              icon: new Icon(Icons.list), title: new Text("BattleLog")),
+              icon: Icon(Icons.list), label: ("BattleLog")),
           BottomNavigationBarItem(
-              icon: new Icon(Icons.people_sharp), title: new Text("Brawlers")),
+              icon: Icon(Icons.people_sharp), label: ("Brawlers")),
           BottomNavigationBarItem(
-              icon: new Icon(Icons.search), title: new Text("ID"))
+              icon: Icon(Icons.search), label: ("ID"))
         ]);
   }
 }

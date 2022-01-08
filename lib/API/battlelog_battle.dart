@@ -1,6 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:projetflutter/API/player.dart';
-import 'battlelog_event.dart';
 
 part 'battlelog_battle.g.dart';
 

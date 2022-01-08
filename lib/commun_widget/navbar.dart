@@ -12,20 +12,19 @@ class Navbar extends ConsumerWidget implements PreferredSizeWidget {
     final Dio dio = ref.read(dioProvider);
     final Future<Response> player = dio.get("players/%2320C2GLVCG");
     player.then((Response value) {
-      print(value.statusCode);
     }).catchError((onError) {
-      print(onError.toString());
+      
     });
     return AppBar(
-      toolbarHeight: 128,
+      toolbarHeight: 64,
       title: Column(
         children: [
           Row(
             children: [
               Image.asset(
                 'assets/logo.png',
-                width: 250,
-                height: 250,
+                width: 150,
+                height: 150,
               ),
               const Text('BrawlStats'),
             ],
@@ -42,5 +41,5 @@ class Navbar extends ConsumerWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => const Size.fromHeight(128);
+  Size get preferredSize => const Size.fromHeight(64);
 }
