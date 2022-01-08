@@ -24,9 +24,12 @@ Vous allez devoir renseigner le NOM de l'API Key sa DESCRIPTION ainsi que mettre
 
 " https://nordvpn.com/fr/what-is-my-ip/ " 📍
 
-Une fois la clé créée vous allez devoir l'activer dans la documentation pour ce faire vous devez consulter le TOKEN obtenu lors de la création de cette dernière et le renseigner dans la documentation. ( Cliquer sur le point d'exclamation rouge)
+<img width="1440" alt="Capture d’écran 2022-01-08 à 14 09 58" src="https://user-images.githubusercontent.com/48148602/148646038-016ae9fb-4921-4f86-8cf6-c5c076d974e7.png">
 
-METTRE IMAGE ICI
+Une fois la clé créée vous allez devoir l'activer dans la documentation pour ce faire vous devez consulter le TOKEN obtenu lors de la création de cette dernière et le renseigner dans la documentation. ( Cliquer sur le point d'exclamation rouge )
+
+<img width="991" alt="Capture d’écran 2022-01-08 à 14 15 35" src="https://user-images.githubusercontent.com/48148602/148646024-cc536fcd-e9d5-48b8-b216-a168d2795ad1.png">
+
 
 Une fois que tout cela est fait, il ne vous reste plus qu'à mettre votre token dans le code. Pour ce faire vous devait vous rendre dans le dossier **providers** puis le fichier **dio.dart**.
 
