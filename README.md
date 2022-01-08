@@ -39,7 +39,7 @@ Voilà vous êtes pret à utiliser notre application !
 
 Afin de tester l'application nous vous fournissons nos ID BrawlStar afin de pouvoir consulter nos statistiques.
 
-Matthys :   #2OC2GLVCG
-Jan :   #GUCQCO2V
-Gauthier :  #28JVC9YGR
-Corentyn : #2URUYPP9
+- Matthys :   2OC2GLVCG
+- Jan :   GUCQCO2V
+- Gauthier :  28JVC9YGR
+- Corentyn : 2URUYPP9
