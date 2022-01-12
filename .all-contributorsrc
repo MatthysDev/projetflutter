@@ -15,12 +15,31 @@
       ]
     },
     {
+
       "login": "Corentyn",
       "name": "Corentyn",
       "avatar_url": "https://avatars.githubusercontent.com/u/48148602?v=4",
       "profile": "https://github.com/Corentyn",
       "contributions": [
-        "code"
+      "design",
+      ]
+},
+{
+      "login": "rayles59",
+      "name": "rayles59",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83212748?v=4",
+      "profile": "https://github.com/rayles59",
+      "contributions": [
+        "data"
+        ]
+        },
+
+      "login": "Jcbutnotjesus",
+      "name": "Jcbutnotjesus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94045096?v=4",
+      "profile": "https://github.com/Jcbutnotjesus",
+      "contributions": [
+        "data",
       ]
     }
   ],
