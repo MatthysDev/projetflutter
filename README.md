@@ -54,15 +54,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://matthys.dev"><img src="https://avatars.githubusercontent.com/u/81434852?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MatthysDev</b></sub></a><br /><a href="#design-MatthysDucrocq" title="Design">🎨</a></td>
 
-    <td align="center"><a href="https://github.com/Corentyn"><img src="https://avatars.githubusercontent.com/u/48148602?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Corentyn</b></sub></a><br /><a href="https://github.com/MatthysDucrocq/projetflutter/commits?author=Corentyn" title="Code">💻</a></td>
-
-    
-  </tr>
-</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
