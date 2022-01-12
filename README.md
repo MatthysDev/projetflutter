@@ -58,9 +58,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://matthys.dev"><img src="https://avatars.githubusercontent.com/u/81434852?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MatthysDev</b></sub></a><br /><a href="#design-MatthysDucrocq" title="Design">🎨</a></td>
     
-    <td align="center"><a href="https://github.com/rayles59"><img src="https://avatars.githubusercontent.com/u/83212748?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rayles59</b></sub></a><br /><a href="https://github.com/MatthysDucrocq/projetflutter/commits?author=rayles59" title="Code">💻</a> <a href="#data-rayles59" title="Data">🔣</a></td>
+    <td align="center"><a href="https://github.com/rayles59"><img src="https://avatars.githubusercontent.com/u/83212748?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rayles59</b></sub></a><a href="#data-rayles59" title="Data">🔣</a></td>
 
-    <td align="center"><a href="https://github.com/Jcbutnotjesus"><img src="https://avatars.githubusercontent.com/u/94045096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jcbutnotjesus</b></sub></a><br /><a href="#data-Jcbutnotjesus" title="Data">🔣</a> <a href="https://github.com/MatthysDucrocq/projetflutter/commits?author=Jcbutnotjesus" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Jcbutnotjesus"><img src="https://avatars.githubusercontent.com/u/94045096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jcbutnotjesus</b></sub></a><br /><a href="#data-Jcbutnotjesus" title="Data">🔣</td>
 
   </tr>
 </table>
