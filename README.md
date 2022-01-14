@@ -1,6 +1,6 @@
 # ProjetFlutter
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 API utilisée : https://brawlstats.readthedocs.io/en/latest/api.html
@@ -53,6 +53,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://matthys.dev"><img src="https://avatars.githubusercontent.com/u/81434852?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MatthysDev</b></sub></a><br /><a href="#design-MatthysDucrocq" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/rayles59"><img src="https://avatars.githubusercontent.com/u/83212748?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rayles59</b></sub></a><br /><a href="#data-rayles59" title="Data">🔣</a></td>
   </tr>
 </table>
 
