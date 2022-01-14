@@ -1,12 +1,4 @@
-Contributors 💫
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-- MatthysDucrocq : Matthys Ducrocq
-- Corentyn: Corentyn Masset
-- Rayles59: Gauthier Boddaert
-- Jcbutnotjesus : Jan Cornelis
+# ProjetFlutter
 
 API utilisée : https://brawlstats.readthedocs.io/en/latest/api.html
 
